@@ -2,20 +2,25 @@ site_name: DragonRuby
 nav:
   - 'Home':
     # - Home: index.md
-    - Licensing: license.md
     - About: about.md
+    - Licensing: license.md
+
   - 'Getting Started':
-    - Tutorial: default_readme.md
+    - Tutorial: 00-tutorial.md
     - General: 01-high-level.md
-  - 'Commands':
+  - 'Outputs':
     - Labels: 02-labels.md
     - Solids & Borders: 03-solids-and-borders.md
     - Lines: 04-lines.md
     - Sprites: 05-sprites.md
+    - Sounds: 09-sound.md
+  - 'Inputs':
     - Keyboard: 06-keyboard.md
     - Mouse: 07-mouse.md
     - Controllers: 08-controllers.md
-    - Sound: 09-sound.md
+  - 'Game States':
+    - Entities & Collisions: 10-entities-and-collisions.md
     - ToDo: 99-todo.md
+
 
 theme: readthedocs

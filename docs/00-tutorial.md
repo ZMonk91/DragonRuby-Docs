@@ -1,48 +1,8 @@
-* Introduction
-
-  Hello world! Do the things in this README file and you'll be well on your way to
-  building video games!
-
-* Join the community!
-
-  Those who use DragonRuby are called Dragon Riders. This identity is
-  incredibly important to us. When someone asks you:
-
-  > What game engine do you use?
-
-  You can proudly reply with:
-
-  > I am a Dragon Rider.
-
-** Subscribe to the News Letter
-
-   The News Letter will keep you in the loop with regards to
-   http://dragonrubydispatch.com/
-
-** Join the Discord
-
-   Amir (one of the creators of DragonRuby) is always available to help
-   you out. So take the time to join the community Discord. The invite linke is located at:
-
-   DragonRuby Discord: http://discord.dragonruby.org
-
-** Introduce Yourself on the Forums
-
-   Take a moment to introducing yourself on the community forum:
-
-   Stickied Community Post: https://itch.io/t/526689/dragonruby-gtk-discord-server-created-join-it-dammit
-
-   This provides community members a registry of everyone using
-   DragonRuby. Itch.io holds a lot of game jams, and it'd be awesome if
-   Dragon Riders had a central place to find each other.
-
+# Getting Started
 * Determine how you want to start learning based on your experience level!
-
   Follows are sections pertaining to your experience level as a
   programer and experience level with coding in a dynamic language.
-
-** If you have zero experience with programming.
-
+### Zero Experience With Programming
    If you have no programing experience at all. You'll want to take the
    time to see what DragonRuby is like before jumping in to code. Watch
    the following videos in order (each one is only ~20 minutes long).
@@ -61,8 +21,7 @@
    1. Beginner Introduction to Ruby: samples/00_beginner_ruby_primer
    2. Intermediate Tutorials: samples/00_intermediate_ruby_primer
 
-** If you do not know Ruby, but have experience with C# (Unity) or GML (GameMaker)
-
+## C#(Unity) / GML(GameMaker) but NO Ruby Experience
    Those engines rot your brain. Forget the concepts that the forced you
    to learn. Game development is so much simpler than what they make you
    do. Please, try your best to set aside the concepts those engines
@@ -79,7 +38,7 @@
 
    After you've watch the videos, you'll be ready to go to the next section.
 
-** You are a dev that is familiar with a dynamically typed language (Ruby, Lua, Python, or JavaScript).
+## Experience with Dynamically Typed Languages (Ruby, Lua, Python, or JavaScript)
 
 *** STEP 1: Work through this Hello World tutorial
 
@@ -299,8 +258,7 @@
     We are constantly adding new features to the engine. Be sure to read
     the changelog with every release.
 
-* How to publish your game.
-
+## Publishing Your Game
   Once you've built your game, you're all set to deploy! Good luck in
   your game dev journey and if you get stuck, come to the Discord
   channel!
@@ -367,3 +325,5 @@
 
    If you make changes to your game, just re-run dragonruby-publish and it'll
    update the downloads for you.
+
+
