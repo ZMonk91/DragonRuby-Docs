@@ -30,19 +30,5 @@ There are many facets to reach out and communicate with fellow **Dragon Riders**
 - Keep updated with related development news <br><br>
 ** [Forums](https://itch.io/t/526689/dragonruby-gtk-discord-server-created-join-it-dammit)**
 - This provides community members a registry of everyone using
-   DragonRuby. **Itch.io** holds a lot of game jams, and it'd be awesome if
+   DragonRuby.  **Itch.io** holds a lot of game jams, and it'd be awesome if
    Dragon Riders had a central place to find each other.<br>
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
