@@ -2,15 +2,6 @@
 
 Labels display text.
 
-## Sample Apps Related to Label Usage (ordered by size of codebase increasing)
-
-- 01_api_01_labels
-- 01_api_99_tech_demo (includes recording)
-- 10_save_load_game (includes recording)
-- 18_moddable_game
-- 19_lowrez_jam_01_hello_world
-- 99_sample_game_return_of_serenity
-
 ## Minimum Code
 
 Creates a label with black text at location 100, 100.
@@ -130,3 +121,11 @@ end
 
 args.outputs.label << TitleLabel.new(10, 10, "The Game")
 ```
+##### Related Samples
+
+- 01_api_01_labels
+- 01_api_99_tech_demo (includes recording)
+- 10_save_load_game (includes recording)
+- 18_moddable_game
+- 19_lowrez_jam_01_hello_world
+- 99_sample_game_return_of_serenity

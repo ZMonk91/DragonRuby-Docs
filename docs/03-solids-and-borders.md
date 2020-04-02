@@ -2,17 +2,6 @@
 
 Solids and Borders are great to use as place holders for sprites.
 
-## Sample Apps Releated to Solid/Borders Usage (ordered by size of codebase increasing)
-
-- 01_api_03_rects
-- 01_api_99_tech_demo (includes recording)
-- 02_collisions
-- 12_top_down_area (includes recording)
-- 99_sample_game_flappy_dragon (includes recording)
-- 08_platformer_collisions
-- 20_roguelike_starting_point
-- 99_sample_game_pong (includes recording)
-
 ## Minimum Code
 
 Creates a solid black rectangle located at 100, 100. 160 pixels
@@ -124,3 +113,15 @@ end
 args.outputs.solids  << Square.new(10, 10, 32)
 args.outputs.borders << Square.new(10, 10, 32)
 ```
+
+## Related Samples
+
+- 01_api_03_rects
+- 01_api_99_tech_demo (includes recording)
+- 02_collisions
+- 12_top_down_area (includes recording)
+- 99_sample_game_flappy_dragon (includes recording)
+- 08_platformer_collisions
+- 20_roguelike_starting_point
+- 99_sample_game_pong (includes recording)
+
