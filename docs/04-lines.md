@@ -2,13 +2,6 @@
 
 Lines are 1 pixel wide and can be diagonal.
 
-## Sample Apps Related to Line Usage (ordered by size of codebase increasing)
-
-- 01_api_02_lines
-- 01_api_99_tech_demo (includes recording)
-- 06_coordinate_systems (includes recording)
-- 19_lowrez_jam_01_hello_world
-- 99_sample_game_pong (includes recording)
 
 ## Minimum Code
 
@@ -106,3 +99,10 @@ end
 
 args.outputs.lines << VerticalLine.new(10, 10, 100)
 ```
+#### Related Samples
+
+- 01_api_02_lines
+- 01_api_99_tech_demo (includes recording)
+- 06_coordinate_systems (includes recording)
+- 19_lowrez_jam_01_hello_world
+- 99_sample_game_pong (includes recording)

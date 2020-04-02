@@ -114,7 +114,7 @@ args.outputs.solids  << Square.new(10, 10, 32)
 args.outputs.borders << Square.new(10, 10, 32)
 ```
 
-## Related Samples
+#### Related Samples
 
 - 01_api_03_rects
 - 01_api_99_tech_demo (includes recording)

@@ -2,17 +2,6 @@
 
 Sprites are the most important visual component of a game.
 
-## Sample Apps Related to Sprite Usage (ordered by size of codebase increasing)
-
-- 01_api_04_sprites
-- 01_api_99_tech_demo (includes recording)
-- 02_sprite_animation_and_keyboard_input (includes recording)
-- 08_platformer_collisions_metroidvania
-- 09_controller_analog_usage_advanced_sprites
-- 99_sample_game_basic_gorillas (includes recording)
-- 99_sample_game_dueling_starships (includes recording)
-- 99_sample_game_flappy_dragon (includes recording)
-- 99_sample_game_return_of_serenity
 
 ## Minimum Code
 
@@ -237,3 +226,14 @@ end
 
 args.outputs.sprites << PlayerSprite.new(10, 10, 32, 64)
 ```
+## Related Samples
+
+- 01_api_04_sprites
+- 01_api_99_tech_demo (includes recording)
+- 02_sprite_animation_and_keyboard_input (includes recording)
+- 08_platformer_collisions_metroidvania
+- 09_controller_analog_usage_advanced_sprites
+- 99_sample_game_basic_gorillas (includes recording)
+- 99_sample_game_dueling_starships (includes recording)
+- 99_sample_game_flappy_dragon (includes recording)
+- 99_sample_game_return_of_serenity
