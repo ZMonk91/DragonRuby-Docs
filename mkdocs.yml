@@ -1,7 +1,7 @@
 site_name: DragonRuby
 nav:
   - 'Home':
-    - Home: index.md
+    # - Home: index.md
     - Licensing: license.md
     - About: about.md
   - 'Getting Started':
