@@ -4,7 +4,6 @@ nav:
     # - Home: index.md
     - About: about.md
     - Licensing: license.md
-
   - 'Getting Started':
     - Tutorial: 00-tutorial.md
     - General: 01-high-level.md
@@ -20,6 +19,8 @@ nav:
     - Controllers: 08-controllers.md
   - 'Game States':
     - Entities & Collisions: 10-entities-and-collisions.md
+  - 'Misc':
+    - FAQ: 98-faq.md
     - ToDo: 99-todo.md
 
 
