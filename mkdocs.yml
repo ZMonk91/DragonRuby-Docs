@@ -1,24 +1,18 @@
 site_name: DragonRuby
 nav:
   - 'Home':
-    # - Home: index.md
+    # Home: index.md
     - About: about.md
     - Licensing: license.md
-  - 'Getting Started':
-    - General: 01-high-level.md
     - Commands: 11-commands.md
-    - Tutorials: 00-tutorial.md
-      - Beginner: tutorials/beginner.md
-      - Intermediate: tutorials/intermediate.md
-      - Advanced: tutorials/advanced.md
-      - Hello World: 96-hello-world.md
-        - Part 1:  96-hello-world.md
-        - Part 2:  96-hello-world-2.md
-        - Part 3:  96-hello-world-3.md
-
-      - Tutorial: 00-tutorial.md
-        
-
+  - 'Getting Started':
+    - General Information: 01-high-level.md
+    - Beginner: tutorials/beginner.md
+    - Intermediate: tutorials/intermediate.md
+    - Advanced: tutorials/advanced.md
+  - 'Tutorials': 
+    - Hello World: tutorials/hello-world.md
+    - Publishing Your Game: tutorials/publishing.md
   - 'Outputs':
     - Labels: 02-labels.md
     - Solids & Borders: 03-solids-and-borders.md
