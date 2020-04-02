@@ -20,8 +20,9 @@ nav:
   - 'Game States':
     - Entities & Collisions: 10-entities-and-collisions.md
   - 'Misc':
+    - Cheatsheet: 97-cheatsheet.md
     - FAQ: 98-faq.md
-    - ToDo: 99-todo.md
+    - To Do: 99-todo.md
 
 
 theme: readthedocs
