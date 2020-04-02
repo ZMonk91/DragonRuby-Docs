@@ -226,3 +226,12 @@ in time that has elapsed. This is related to args.state.tick_count.
 args.state.attacked_at ||= args.state.tick_count
 puts args.state.attacked_at.elapsed? 60  # will print false after one second.
 ```
+
+## GTK
+
+<br>`gtk.current_framerate`  -  Returns current framerate 
+<br>`gtk.pin_to_30fps?` - Returns boolean determining if gtk is pinned to 30 FPS
+<br>`gtk.pause!` - Pauses game
+<br>`gtk.paused` - Returns boolean determining if game is paused
+<br>`gtk.paused=` - Allows you to change value of pause
+<br>`gtk.unpause!` - Unpauses game
