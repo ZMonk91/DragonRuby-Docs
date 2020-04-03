@@ -1,0 +1,944 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>Hello World - DragonRuby</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#hello-world-tutorial" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="DragonRuby" aria-label="DragonRuby" class="md-header-nav__button md-logo">
+          
+            <img alt="logo" src="../../img/console-logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              DragonRuby
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Hello World
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="DragonRuby" class="md-nav__button md-logo">
+      
+        <img alt="logo" src="../../img/console-logo.png" width="48" height="48">
+      
+    </a>
+    DragonRuby
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../license/" title="Licensing" class="md-nav__link">
+      Licensing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../11-commands/" title="Commands" class="md-nav__link">
+      Commands
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Getting Started
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../01-high-level/" title="General Information" class="md-nav__link">
+      General Information
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../beginner/" title="Beginner" class="md-nav__link">
+      Beginner
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../intermediate/" title="Intermediate" class="md-nav__link">
+      Intermediate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../advanced/" title="Advanced" class="md-nav__link">
+      Advanced
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Tutorials
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Tutorials
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Hello World
+      </label>
+    
+    <a href="./" title="Hello World" class="md-nav__link md-nav__link--active">
+      Hello World
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-1" class="md-nav__link">
+    Part 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2" class="md-nav__link">
+    Part 2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-3" class="md-nav__link">
+    Part 3
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publishing/" title="Publishing Your Game" class="md-nav__link">
+      Publishing Your Game
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Outputs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Outputs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../02-labels/" title="Labels" class="md-nav__link">
+      Labels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../03-solids-and-borders/" title="Solids & Borders" class="md-nav__link">
+      Solids & Borders
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../04-lines/" title="Lines" class="md-nav__link">
+      Lines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../05-sprites/" title="Sprites" class="md-nav__link">
+      Sprites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../09-sound/" title="Sounds" class="md-nav__link">
+      Sounds
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Inputs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Inputs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../06-keyboard/" title="Keyboard" class="md-nav__link">
+      Keyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../07-mouse/" title="Mouse" class="md-nav__link">
+      Mouse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../08-controllers/" title="Controllers" class="md-nav__link">
+      Controllers
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Game States
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Game States
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../10-entities-and-collisions/" title="Entities & Collisions" class="md-nav__link">
+      Entities & Collisions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Misc
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Misc
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../97-cheatsheet/" title="Cheatsheet" class="md-nav__link">
+      Cheatsheet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../98-faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../99-todo/" title="To Do" class="md-nav__link">
+      To Do
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-1" class="md-nav__link">
+    Part 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2" class="md-nav__link">
+    Part 2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-3" class="md-nav__link">
+    Part 3
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="hello-world-tutorial">Hello World Tutorial<a class="headerlink" href="#hello-world-tutorial" title="Permanent link">#</a></h1>
+<h2 id="part-1">Part 1<a class="headerlink" href="#part-1" title="Permanent link">#</a></h2>
+<p>By <a href="https://en.wikipedia.org/wiki/Ryan_C._Gordon">Ryan 'The Juggernaut' Gordon</a></p>
+<p>Welcome!</p>
+<p>Here's just a little push to get you started if you're new to programming or
+game development.</p>
+<p>If you want to write a game, it's no different than writing any other
+program for any other framework: there are a few simple rules that might be
+new to you, but more or less programming is programming no matter what you
+are building.</p>
+<p>Did you not know that? Did you think you couldn't write a game because you're
+a "web guy" or you're writing Java at a desk job? Stop letting people tell
+you that you can't, because you already have everything you need.</p>
+<p>Here, we're going to be programming in a language called "Ruby." In the
+interest of full disclosure, I (Ryan "The Juggernaut" Gordon) wrote the C
+parts of this toolkit and Ruby looks a little strange to me (Amir Rajan wrote the
+Ruby parts), but I'm going to walk you through the basics because we're all
+learning together, and if you mostly think of yourself as someone that writes
+C (or C++, C#, Objective-C), PHP, or Java, then you're only a step behind me right now.</p>
+<p>Here's the most important thing you should know: <strong>Ruby lets you do some
+complicated things really easily, and you can learn that stuff later. </strong> I'm
+going to show you one or two cool tricks, but that's all.</p>
+<h2 id="part-2">Part 2<a class="headerlink" href="#part-2" title="Permanent link">#</a></h2>
+<p>Do you know what an if statement is? A for-loop? An array? That's all you'll
+need to start.</p>
+<p>Ok, here are few rules with regards to game development with GTK:</p>
+<ul>
+<li>Your game is all going to happen under one function...</li>
+<li>...that runs 60 times a second...</li>
+<li>...and has to tell the computer what to draw each time.</li>
+</ul>
+<p>That's an entire video game in one run-on sentence.</p>
+<p>Here's that function. You're going to want to put this in mygame/app/main.rb,
+because that's where we'll look for it by default. Load it up in your favorite
+text editor.</p>
+<pre><code class="ruby">  def tick args
+    args.outputs.labels &lt;&lt; [ 580, 400, 'Hello World!' ]
+  end
+</code></pre>
+
+<p>Now run <code>dragonruby</code> ...did you get a window with "Hello World!" written in
+it? Good, you're officially a game developer!</p>
+<p><code>mygame/app/main.rb</code>, is where the Ruby source code is located. This looks a little strange, so
+I'll break it down line by line. In Ruby, a '#' character starts a single-line
+comment, so I'll talk about this inline.</p>
+<pre><code class="ruby">
+  # This &quot;def&quot;ines a function, named &quot;tick,&quot; which takes a single argument
+  #  named &quot;args&quot;. DragonRuby looks for this function and calls it every
+  #  frame, 60 times a second. &quot;args&quot; is a magic structure with lots of
+  #  information in it. You can set variables in there for your own game state,
+  #  and every frame it will updated if keys are pressed, joysticks moved,
+  #  mice clicked, etc.
+  def tick args
+
+    # One of the things in &quot;args&quot; is the &quot;outputs&quot; object that your game uses
+    #  to draw things. Afraid of rendering APIs? No problem. In DragonRuby,
+    #  you use arrays to draw things and we figure out the details.
+    #  If you want to draw text on the screen, you give it an array (the thing
+    #  in the [ brackets ]), with an X and Y coordinate and the text to draw.
+    #  The &quot;&lt;&lt;&quot; thing says &quot;append this array onto the list of them at
+    #  args.outputs.labels)
+    args.outputs.labels &lt;&lt; [ 580, 400, 'Hello World!' ]
+  end
+
+</code></pre>
+
+<p>Once your <code>tick</code> function finishes, we look at all the arrays you made and
+figure out how to draw it. You don't need to know about graphics APIs.
+You're just setting up some arrays! DragonRuby clears out these arrays
+every frame, so you just need to add what you need <em>right now</em> each time.</p>
+<h2 id="part-3">Part 3<a class="headerlink" href="#part-3" title="Permanent link">#</a></h2>
+<p>Now let's spice this up a little.</p>
+<p>We're going to add some graphics. Each 2D image in DragonRuby is called a
+"sprite," and to use them, you just make sure they exist in a reasonable file
+format (png, jpg, gif, bmp, etc) and specify them by filename. The first time
+you use one, DragonRuby will load it and keep it in video memory for fast
+access in the future. If you use a filename that doesn't exist, you get a fun
+checkerboard pattern!</p>
+<p>There's a "dragonruby.png" file included, just to get you started. Let's have
+it draw every frame with our text:</p>
+<pre><code class="ruby">
+  def tick args
+    args.outputs.labels &lt;&lt; [ 580, 400, 'Hello World!' ]
+    args.outputs.sprites &lt;&lt; [ 576, 100, 128, 101, 'dragonruby.png' ]
+  end
+
+</code></pre>
+
+<p>(ProTip: you don't have to restart DragonRuby to test your changes; when you
+save main.rb, DragonRuby will notice and reload your program.)</p>
+<p>That <code>.sprites</code> line says "add a sprite to the list of sprites we're drawing,
+and draw it at position (576, 100) at a size of 128x101 pixels". You can
+find the image to draw at dragonruby.png.</p>
+<p>Quick note about coordinates: (0, 0) is the bottom left corner of the screen,
+and positive numbers go up and to the right. This is more "geometrically
+correct," even if it's not how you remember doing 2D graphics, but we chose
+this for a simpler reason: when you're making Super Mario Brothers and you
+want Mario to jump, you should be able to add to Mario's y position as he
+goes up and subtract as he falls. It makes things easier to understand.</p>
+<p>Also: your game screen is <em>always</em> 1280x720 pixels. If you resize the window,
+we will scale and letterbox everything appropriately, so you never have to
+worry about different resolutions.</p>
+<p>Ok, now we have an image on the screen, let's animate it:</p>
+<pre><code class="ruby">
+  def tick args
+    args.state.rotation ||= 0
+    args.outputs.labels &lt;&lt; [ 580, 400, 'Hello World!' ]
+    args.outputs.sprites &lt;&lt; [ 576, 100, 128, 101, 'dragonruby.png', args.state.rotation ]
+    args.state.rotation -= 1
+  end
+
+</code></pre>
+
+<p>Now you can see that this function is getting called a lot!</p>
+<p>Here's a fun Ruby thing: <code>args.state.rotation ||= 0</code> is shorthand for "if
+args.state.rotation isn't initialized, set it to zero." It's a nice way to
+embed your initialization code right next to where you need the variable.</p>
+<p><code>args.state</code> is a place you can hang your own data and have it survive past the
+life of the function call. In this case, the current rotation of our sprite,
+which is happily spinning at 60 frames per second. If you don't specify
+rotation (or alpha, or color modulation, or a source rectangle, etc),
+DragonRuby picks a reasonable default, and the array is ordered by the most
+likely things you need to tell us: position, size, name.</p>
+<p>One thing we decided to do in DragonRuby is not make you worry about delta
+time: your function runs at 60 frames per second (about 16 milliseconds) and
+that's that. Having to worry about framerate is something massive triple-AAA
+games do, but for fun little 2D games? You'd have to work really hard to not
+hit 60fps. All your drawing is happening on a GPU designed to run Fortnite
+quickly; it can definitely handle this.</p>
+<p>Since we didn't make you worry about delta time, you can just move the
+rotation by 1 every time and it works without you having to keep track of
+time and math. Want it to move faster? Subtract 2.</p>
+<p>Now, let's move that image around.</p>
+<pre><code class="ruby">
+  def tick args
+    args.state.rotation ||= 0
+    args.state.x ||= 576
+    args.state.y ||= 100
+
+    if args.inputs.mouse.click
+      args.state.x = args.inputs.mouse.click.point.x - 64
+      args.state.y = args.inputs.mouse.click.point.y - 50
+    end
+
+    args.outputs.labels &lt;&lt; [ 580, 400, 'Hello World!' ]
+    args.outputs.sprites &lt;&lt; [ args.state.x, args.state.y, 128, 101, 'dragonruby.png', args.state.rotation ]
+
+    args.state.rotation -= 1
+  end
+
+</code></pre>
+
+<p>Everywhere you click your mouse, the image moves there. We set a default
+location for it with args.state.x ||= 576, and then we change those variables
+when we see the mouse button in action. You can get at the keyboard and game
+controllers in similar ways.</p>
+<p>There is a lot more you can do with DragonRuby, but now you've already got
+just about everything you need to make a simple game. After all, even the
+most fancy games are just creating objects and moving them around. Experiment
+a little. Add a few more things and have them interact in small ways. Want
+something to go away? Just don't add it to args.output anymore.</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../advanced/" title="Advanced" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Advanced
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../publishing/" title="Publishing Your Game" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Publishing Your Game
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.1",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
