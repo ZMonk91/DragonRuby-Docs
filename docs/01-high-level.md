@@ -1,3 +1,4 @@
+!!! warning "[This documentation is still under development. Click here to contribute](https://github.com/ZMonk91/DragonRuby-Docs)"
 # General Stuff#
 ---
 - You have 1280x720 pixels to work with. The bottom left corner is 0, 0

@@ -1,3 +1,4 @@
+!!! warning "[This documentation is still under development. Click here to contribute](https://github.com/ZMonk91/DragonRuby-Docs)"
 # Commands#
 ---
 Below is an ever growing list of commands available for DragonRuby GTK.

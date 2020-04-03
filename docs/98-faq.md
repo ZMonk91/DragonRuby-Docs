@@ -1,3 +1,4 @@
+!!! warning "[This documentation is still under development. Click here to contribute](https://github.com/ZMonk91/DragonRuby-Docs)"
 # Frequently Asked Questions#
 ---
 ??? question "Where do I start?"
@@ -107,7 +108,7 @@
       args.outputs.sprites << bullet.sprite
     end
     ```
-    
+
     do
 
     ``` ruby

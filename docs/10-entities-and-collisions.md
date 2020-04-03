@@ -1,3 +1,4 @@
+!!! warning "[This documentation is still under development. Click here to contribute](https://github.com/ZMonk91/DragonRuby-Docs)"
 # Entities and Collision#
 ---
  Randomly create 500 ninjas on the screen. Create a lookup table that contains the alpha property of ninjas that have collided. Present all ninjas with their alpha properties set.

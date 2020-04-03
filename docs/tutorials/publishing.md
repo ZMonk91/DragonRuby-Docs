@@ -1,3 +1,4 @@
+!!! warning "[This documentation is still under development. Click here to contribute](https://github.com/ZMonk91/DragonRuby-Docs)"
 # Publishing Your Game#
 ---
   Once you've built your game, you're all set to deploy! Good luck in

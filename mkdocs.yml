@@ -4,7 +4,7 @@ nav:
     - Main : index.md
     - About: about.md
     - Licensing: license.md
-    - Commands: 11-commands.md
+  - Commands: 11-commands.md
   - 'Getting Started': 
     - General Information: 01-high-level.md
     - Beginner: tutorials/beginner.md
