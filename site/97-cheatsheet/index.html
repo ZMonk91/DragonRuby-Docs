@@ -1,0 +1,912 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>Cheatsheet - DragonRuby</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#dragonruby-game-toolkit-cheatsheet" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="DragonRuby" aria-label="DragonRuby" class="md-header-nav__button md-logo">
+          
+            <img alt="logo" src="../img/console-logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              DragonRuby
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Cheatsheet
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="DragonRuby" class="md-nav__button md-logo">
+      
+        <img alt="logo" src="../img/console-logo.png" width="48" height="48">
+      
+    </a>
+    DragonRuby
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../license/" title="Licensing" class="md-nav__link">
+      Licensing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../11-commands/" title="Commands" class="md-nav__link">
+      Commands
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Getting Started
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../01-high-level/" title="General Information" class="md-nav__link">
+      General Information
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tutorials/beginner/" title="Beginner" class="md-nav__link">
+      Beginner
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tutorials/intermediate/" title="Intermediate" class="md-nav__link">
+      Intermediate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tutorials/advanced/" title="Advanced" class="md-nav__link">
+      Advanced
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Tutorials
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Tutorials
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tutorials/hello-world/" title="Hello World" class="md-nav__link">
+      Hello World
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tutorials/publishing/" title="Publishing Your Game" class="md-nav__link">
+      Publishing Your Game
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Outputs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Outputs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../02-labels/" title="Labels" class="md-nav__link">
+      Labels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../03-solids-and-borders/" title="Solids & Borders" class="md-nav__link">
+      Solids & Borders
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../04-lines/" title="Lines" class="md-nav__link">
+      Lines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../05-sprites/" title="Sprites" class="md-nav__link">
+      Sprites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../09-sound/" title="Sounds" class="md-nav__link">
+      Sounds
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Inputs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Inputs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../06-keyboard/" title="Keyboard" class="md-nav__link">
+      Keyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../07-mouse/" title="Mouse" class="md-nav__link">
+      Mouse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../08-controllers/" title="Controllers" class="md-nav__link">
+      Controllers
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Game States
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Game States
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../10-entities-and-collisions/" title="Entities & Collisions" class="md-nav__link">
+      Entities & Collisions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+    
+    <label class="md-nav__link" for="nav-7">
+      Misc
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Misc
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Cheatsheet" class="md-nav__link md-nav__link--active">
+      Cheatsheet
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../98-faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../99-todo/" title="To Do" class="md-nav__link">
+      To Do
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="dragonruby-game-toolkit-cheatsheet">DragonRuby Game Toolkit Cheatsheet<a class="headerlink" href="#dragonruby-game-toolkit-cheatsheet" title="Permanent link">#</a></h1>
+<p>A detailed documentation listing is located at
+<code>mygame/documentation</code>. For real world sample usages of GTK's APIs,
+take a look at the <code>samples</code> directory. The sample apps are ordered by
+beginner to advanced. So look at them in order to get the most out of
+them.</p>
+<h1 id="minimum-code-for-game">Minimum Code for Game<a class="headerlink" href="#minimum-code-for-game" title="Permanent link">#</a></h1>
+<p>The minimum amount of code required for a game is a file named
+<code>mygame/main.rb</code> with the following:</p>
+<pre><code class="ruby">def tick args
+  args.outputs.labels &lt;&lt; [640, 360, &quot;Hello World&quot;]
+end
+</code></pre>
+
+<h1 id="args-args">Args: <code>args</code><a class="headerlink" href="#args-args" title="Permanent link">#</a></h1>
+<p>All of GTK's functionality hangs off of <code>args</code>.</p>
+<h2 id="args-outputs-argsoutputs">Args' Outputs: <code>args.outputs</code><a class="headerlink" href="#args-outputs-argsoutputs" title="Permanent link">#</a></h2>
+<p>All render <code>primitive</code>s are accessible under <code>args.outputs</code>.</p>
+<h3 id="labels-argsoutputslabels">Labels: <code>args.outputs.labels</code><a class="headerlink" href="#labels-argsoutputslabels" title="Permanent link">#</a></h3>
+<p><code>args.outputs.labels</code> is used to render labels.</p>
+<p>Labels are how you display text. This code will go directly inside of the <code>def tick args</code> method.</p>
+<ul>
+<li><strong>Minimum Code</strong></li>
+</ul>
+<pre><code class="ruby">#                       X    Y    TEXT
+args.outputs.labels &lt;&lt; [640, 360, &quot;I am a black label.&quot;]
+</code></pre>
+
+<ul>
+<li><strong>A Colored Label</strong></li>
+</ul>
+<pre><code class="ruby"># A colored label
+#                       X    Y    TEXT,                   RED    GREEN  BLUE  ALPHA
+args.outputs.labels &lt;&lt; [640, 360, &quot;I am a redish label.&quot;, 255,     128,  128,   255]
+</code></pre>
+
+<ul>
+<li><strong>Extended Capabilities</strong></li>
+</ul>
+<pre><code class="ruby"># A colored label
+#                       X    Y     TEXT           SIZE  ALIGNMENT  RED  GREEN  BLUE  ALPHA  FONT FILE
+args.outputs.labels &lt;&lt; [640, 360, &quot;Hello world&quot;,    0,         1,   0,     0,    0,   255, &quot;fonts/coolfont.ttf&quot;]
+</code></pre>
+
+<p>A <code>SIZE</code> of <code>0</code> represents "default size". A negative value will decrease
+the label size. A positive value will increase the label's size.</p>
+<p>An <code>ALIGNMENT</code> of <code>0</code> represents "left aligned". <code>1</code> represents "center aligned". <code>2</code> represents "right aligned".</p>
+<ul>
+<li><strong>Named Parameters/Additional Metadata</strong></li>
+</ul>
+<p>You can add additional metadata about your game within a label, which requires you to use a <code>Hash</code> instead.</p>
+<pre><code class="ruby">args.outputs.labels &lt;&lt; {
+  x:              200,
+  y:              550,
+  text:           &quot;dragonruby&quot;,
+  size_enum:      2,
+  alignment_enum: 1,
+  r:              155,
+  g:              50,
+  b:              50,
+  a:              255,
+  font:           &quot;fonts/manaspc.ttf&quot;,
+  # You can add any properties you like (this will be ignored/won't cause errors)
+  game_data_one:  &quot;Something&quot;,
+  game_data_two: {
+     value_1: &quot;value&quot;,
+     value_2: &quot;value two&quot;,
+     a_number: 15
+  }
+}
+</code></pre>
+
+<ul>
+<li><strong>Getting The Size of a Piece of Text: <code>args.gtk.calcstringbox</code></strong></li>
+</ul>
+<pre><code class="ruby">def tick args
+  # local variable
+  #                                       TEXT           SIZE_ENUM  FONT
+  text_size = args.gtk.args.calcstringbox(&quot;some string&quot;,         0, &quot;font.ttf&quot;)
+
+  # print size of a label to screen using Ruby's string formatting capabilities: #{}
+  args.outputs.labels &lt;&lt; [640, 360, &quot;the label's size is: #{text_size.x}, #{text_size.y}, #{text_size.w}, #{text_size.h}&quot;]
+end
+</code></pre>
+
+<h3 id="sprites-argsoutputssprites">Sprites: <code>args.outputs.sprites</code><a class="headerlink" href="#sprites-argsoutputssprites" title="Permanent link">#</a></h3>
+<p><code>args.outputs.sprites</code> is used to render sprites.</p>
+<p>All primitives in GTK have the same considerations as detailed in the Labels section.</p>
+<ul>
+<li><strong>Minimum Code</strong></li>
+</ul>
+<pre><code class="ruby">#                          X    Y  WIDTH  HEIGHT  PATH
+args.outputs.sprites &lt;&lt; [100, 100,    32,     64, &quot;sprites/player.png&quot;]
+</code></pre>
+
+<ul>
+<li><strong>Extended Capabilities</strong></li>
+</ul>
+<pre><code class="ruby">args.outputs.sprites &lt;&lt; [
+  100,          # X
+  100,          # Y
+  32,           # W
+  64,           # H
+  &quot;player.png&quot;, # PATH
+  0,            # ANGLE
+  255,          # ALPHA
+  0,            # RED_SATURATION
+  255,          # GREEN_SATURATION
+  0             # BLUE_SATURATION
+]
+</code></pre>
+
+<ul>
+<li><strong>Named Parameters/Additional Metadata</strong></li>
+</ul>
+<p>Here are all the properties for <code>sprites</code>:</p>
+<pre><code class="ruby">args.outputs.sprites &lt;&lt; {
+  x: 100,
+  y: 100,
+  w: 100,
+  h: 100,
+  path: &quot;sprites/player.png&quot;,
+  angle: 0,
+  a, 255
+  r: 255,
+  g: 255,
+  b: 255,
+  source_x:  0,
+  source_y:  0,
+  source_w: -1,
+  source_h: -1,
+  flip_vertically: false,
+  flip_horizontally: false,
+  angle_anchor_x: 0.5,
+  angle_anchor_y: 1.0
+}
+</code></pre>
+
+<h3 id="sounds-argsoutputssounds">Sounds <code>args.outputs.sounds</code><a class="headerlink" href="#sounds-argsoutputssounds" title="Permanent link">#</a></h3>
+<p>Sounds that end <code>.wav</code> will play once:
+<code>args.outputs.sounds &lt;&lt; 'something.wav'</code>.</p>
+<p>Sounds that end <code>.ogg</code> is considered background music and will loop:
+<code>args.outputs.sounds &lt;&lt; 'background_music.ogg'</code>.</p>
+<p>If you want to play a <code>.ogg</code> once as if it were a sound effect, you can do:
+<code>args.gtk.queue_sound 'some-ogg.ogg'</code></p>
+<h2 id="args-state-argsstate">Args' State <code>args.state</code><a class="headerlink" href="#args-state-argsstate" title="Permanent link">#</a></h2>
+<p><code>args.state</code> is where you can put all of your game state.</p>
+<ul>
+<li><strong>Tick Count <code>args.state.tick_count</code></strong></li>
+</ul>
+<p>GTK has a fixed time step of 60 frames per second. You can access the current <code>tick_count</code> using <code>args.state.tick_count</code>:</p>
+<pre><code class="ruby">def tick args
+   # Render a label showing the current tick_count.
+   args.outputs.labels &lt;&lt; [360, 640, args.state.tick_count]
+end
+</code></pre>
+
+<ul>
+<li><strong>Working With "Open" Game State</strong></li>
+</ul>
+<p><code>args.state</code> is a "open" data structure that allows you to define
+properties of any structure. You don't need to define any kind of
+<code>class</code>.</p>
+<p>To initialize your game state, use the <code>||=</code> operator. Any value on
+the right side of <code>||=</code> will only be assigned <code>once</code>.</p>
+<p>To assign a value every frame, just use the <code>=</code> operator, but <em>make
+sure</em> you've initalized a default value.</p>
+<pre><code class="ruby">def tick args
+  # initialize your game state ONCE
+  args.player.x  ||= 0
+  args.player.y  ||= 0
+  args.player.hp ||= 100
+
+  # increment the x position of the character by one every frame
+  args.player.x += 1
+
+  # Render a sprite with a label above the sprite
+
+  #                        X              Y              W   H  PATH
+  args.outputs.sprites &lt;&lt; [args.player.x, args.player.y, 32, 32 &quot;player.png&quot;]
+
+  #                        X              Y                   TEXT
+  args.outputs.labels  &lt;&lt; [args.player.x, args.player.y - 50, args.player.hp]
+end
+</code></pre>
+
+<h2 id="args-inputs-argsinputs">Args' Inputs: <code>args.inputs</code><a class="headerlink" href="#args-inputs-argsinputs" title="Permanent link">#</a></h2>
+<h1 id="numeric">Numeric<a class="headerlink" href="#numeric" title="Permanent link">#</a></h1>
+<h2 id="numericelapsed">Numeric#elapsed?<a class="headerlink" href="#numericelapsed" title="Permanent link">#</a></h2>
+<p>Returns true if a numeric value plus an offset represents a point
+in time that has elapsed. This is related to args.state.tick_count.</p>
+<pre><code>args.state.attacked_at ||= args.state.tick_count
+puts args.state.attacked_at.elapsed? 60  # will print false after one second.
+</code></pre>
+
+<h2 id="gtk">GTK<a class="headerlink" href="#gtk" title="Permanent link">#</a></h2>
+<p><br><code>gtk.current_framerate</code>  -  Returns current framerate 
+<br><code>gtk.pin_to_30fps?</code> - Returns boolean determining if gtk is pinned to 30 FPS
+<br><code>gtk.pause!</code> - Pauses game
+<br><code>gtk.paused</code> - Returns boolean determining if game is paused
+<br><code>gtk.paused=</code> - Allows you to change value of pause
+<br><code>gtk.unpause!</code> - Unpauses game</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../10-entities-and-collisions/" title="Entities & Collisions" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Entities & Collisions
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../98-faq/" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                FAQ
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.1",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
