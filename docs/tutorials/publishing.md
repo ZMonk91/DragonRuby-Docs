@@ -1,9 +1,11 @@
-# Publishing Your Game
+# Publishing Your Game#
+---
   Once you've built your game, you're all set to deploy! Good luck in
   your game dev journey and if you get stuck, come to the Discord
   channel!
 
-## 1. Create a new game in Itch.io
+## 1. Create a new game in Itch.io#
+---
 
   - Log in and create a new game [Here](https://itch.io/game/new).
 
@@ -18,7 +20,8 @@
 
    You can fill out all the other options later.
 
-## 2. Update your metadata
+## 2. Update your metadata#
+---
 
    Point your text editor at mygame/metadata/game_metadata.txt and
    make it look like this: (Remove the `#` at the beginning of each line).
@@ -40,7 +43,8 @@ version=0.1
 
 <br>
 
-## 3. Build your game for distribution.
+## 3. Build your game for distribution.#
+---
 
    Open up the terminal and run this from the command line:<br>
 `./dragonruby-publish --only-package mygame`<br>

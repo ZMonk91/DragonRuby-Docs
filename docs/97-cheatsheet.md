@@ -1,4 +1,5 @@
-# DragonRuby Game Toolkit Cheatsheet
+# DragonRuby Game Toolkit Cheatsheet#
+---
 
 A detailed documentation listing is located at
 `mygame/documentation`. For real world sample usages of GTK's APIs,
@@ -6,7 +7,8 @@ take a look at the `samples` directory. The sample apps are ordered by
 beginner to advanced. So look at them in order to get the most out of
 them.
 
-# Minimum Code for Game
+# Minimum Code for Game#
+---
 
 The minimum amount of code required for a game is a file named
 `mygame/main.rb` with the following:
@@ -17,28 +19,33 @@ def tick args
 end
 ```
 
-# Args: `args`
+# Args: `args`#
+---
 
 All of GTK's functionality hangs off of `args`.
 
-## Args' Outputs: `args.outputs`
+## Args' Outputs: `args.outputs`#
+---
 
 All render `primitive`s are accessible under `args.outputs`.
 
-### Labels: `args.outputs.labels`
+### Labels: `args.outputs.labels`#
+---
 
 `args.outputs.labels` is used to render labels.
 
 Labels are how you display text. This code will go directly inside of the `def tick args` method.
 
-- **Minimum Code**
+- **Minimum Code**#
+---
 
 ```ruby
 #                       X    Y    TEXT
 args.outputs.labels << [640, 360, "I am a black label."]
 ```
 
-- **A Colored Label**
+- **A Colored Label**#
+---
 
 ```ruby
 # A colored label
@@ -46,7 +53,8 @@ args.outputs.labels << [640, 360, "I am a black label."]
 args.outputs.labels << [640, 360, "I am a redish label.", 255,     128,  128,   255]
 ```
 
-- **Extended Capabilities**
+- **Extended Capabilities**#
+---
 
 ```ruby
 # A colored label
@@ -59,7 +67,8 @@ the label size. A positive value will increase the label's size.
 
 An `ALIGNMENT` of `0` represents "left aligned". `1` represents "center aligned". `2` represents "right aligned".
 
-- **Named Parameters/Additional Metadata**
+- **Named Parameters/Additional Metadata**#
+---
 
 You can add additional metadata about your game within a label, which requires you to use a `Hash` instead.
 
@@ -85,7 +94,8 @@ args.outputs.labels << {
 }
 ```
 
-- **Getting The Size of a Piece of Text: `args.gtk.calcstringbox`**
+- **Getting The Size of a Piece of Text:#
+--- `args.gtk.calcstringbox`**
 
 ```ruby
 def tick args
@@ -98,20 +108,23 @@ def tick args
 end
 ```
 
-### Sprites: `args.outputs.sprites`
+### Sprites: `args.outputs.sprites`#
+---
 
 `args.outputs.sprites` is used to render sprites.
 
 All primitives in GTK have the same considerations as detailed in the Labels section.
 
-- **Minimum Code**
+- **Minimum Code**#
+---
 
 ```ruby
 #                          X    Y  WIDTH  HEIGHT  PATH
 args.outputs.sprites << [100, 100,    32,     64, "sprites/player.png"]
 ```
 
-- **Extended Capabilities**
+- **Extended Capabilities**#
+---
 
 ```ruby
 args.outputs.sprites << [
@@ -128,7 +141,8 @@ args.outputs.sprites << [
 ]
 ```
 
-- **Named Parameters/Additional Metadata**
+- **Named Parameters/Additional Metadata**#
+---
 
 Here are all the properties for `sprites`:
 
@@ -155,7 +169,8 @@ args.outputs.sprites << {
 }
 ```
 
-### Sounds `args.outputs.sounds`
+### Sounds `args.outputs.sounds`#
+---
 
 Sounds that end `.wav` will play once:
 `args.outputs.sounds << 'something.wav'`.
@@ -166,7 +181,8 @@ Sounds that end `.ogg` is considered background music and will loop:
 If you want to play a `.ogg` once as if it were a sound effect, you can do:
 `args.gtk.queue_sound 'some-ogg.ogg'`
 
-## Args' State `args.state`
+## Args' State `args.state`#
+---
 
 `args.state` is where you can put all of your game state.
 
@@ -181,7 +197,8 @@ def tick args
 end
 ```
 
-- **Working With "Open" Game State**
+- **Working With "Open" Game State**#
+---
 
 `args.state` is a "open" data structure that allows you to define
 properties of any structure. You don't need to define any kind of
@@ -214,10 +231,13 @@ end
 ```
 
 ## Args' Inputs: `args.inputs`
+#
+---
+# Numeric#
+---
 
-# Numeric
-
-## Numeric#elapsed?
+## Numeric#elapsed?#
+---
 
 Returns true if a numeric value plus an offset represents a point
 in time that has elapsed. This is related to args.state.tick_count.
@@ -227,7 +247,8 @@ args.state.attacked_at ||= args.state.tick_count
 puts args.state.attacked_at.elapsed? 60  # will print false after one second.
 ```
 
-## GTK
+## GTK#
+---
 
 <br>`gtk.current_framerate`  -  Returns current framerate 
 <br>`gtk.pin_to_30fps?` - Returns boolean determining if gtk is pinned to 30 FPS

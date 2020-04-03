@@ -1,8 +1,10 @@
-# Labels
+# Labels#
+---
 
 Labels display text.
 
-## Minimum Code
+## Minimum Code#
+---
 
 Creates a label with black text at location 100, 100.
 
@@ -11,7 +13,8 @@ Creates a label with black text at location 100, 100.
 args.outputs.labels << [100, 100, "Hello world"]
 ```
 
-## Font Size
+## Font Size#
+---
 
 The size can be a number between `-10` and `+10`. The default size is `0`.
 
@@ -20,7 +23,8 @@ The size can be a number between `-10` and `+10`. The default size is `0`.
 args.outputs.labels << [100, 100, "Hello world",    5]
 ```
 
-## Alignment
+## Alignment#
+---
 
 Alignment values are `0` (left, default), `1` (center), and `2`
 (right). The value must come after the size.
@@ -32,7 +36,8 @@ A label smack dab in the center of the screen, with a center alignment:
 args.outputs.labels << [640, 360, "Hello world",    0,         1]
 ```
 
-## RGBA - Colors and Alpha
+## RGBA - Colors and Alpha#
+---
 
 Labels can have colors. The value for the color is an number between
 `0` and `255`.
@@ -51,7 +56,8 @@ A green label with size and alignment.
 args.outputs.labels << [640, 360, "Hello world",    0,         1,   0,   255,    0,   128]
 ```
 
-## Custom Font
+## Custom Font#
+---
 
 You can override the font for a label. The font needs to be under the
 `mygame` directory. It's recommended that you create a `fonts` folder
@@ -64,7 +70,8 @@ Here is how you create a label with a font named `coolfont.ttf` under a director
 args.outputs.labels << [640, 360, "Hello world",    0,         1,   0,     0,    0,   255, "fonts/coolfont.ttf"]
 ```
 
-## Hashes (Advanced)
+## Hashes (Advanced)#
+---
 
 If you want a more readable invocation. You can use the following hash to create a label.
 Any parameters that are not specified will be given a default value. The keys of the hash can
@@ -88,7 +95,8 @@ args.outputs.labels << {
 }
 ```
 
-## Duck Typing (Advanced)
+## Duck Typing (Advanced)#
+---
 
 You can also create a class with line properties and render it as a primitive.
 ALL properties must on the class. ADDITIONALLY, a method called
@@ -121,7 +129,8 @@ end
 
 args.outputs.label << TitleLabel.new(10, 10, "The Game")
 ```
-##### Related Samples
+##### Related Samples#
+---
 
 - 01_api_01_labels
 - 01_api_99_tech_demo (includes recording)

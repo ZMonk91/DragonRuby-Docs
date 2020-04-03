@@ -1,6 +1,8 @@
-# Documentation That Needs to be Organized
+# Documentation That Needs to be Organized#
+---
 
-## Class macro gtk_args
+## Class macro gtk_args#
+---
 
 Here's how you can use the `gtk_args` class method:
 
@@ -45,7 +47,8 @@ def tick args
 end
 ```
 
-## Monkey patching the runtime
+## Monkey patching the runtime#
+---
 
 You're on your own if you do this :grimacing:
 

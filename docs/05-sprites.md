@@ -1,9 +1,11 @@
-# Sprites
+# Sprites#
+---
 
 Sprites are the most important visual component of a game.
 
 
-## Minimum Code
+## Minimum Code#
+---
 
 Sprites need to be under the `mygame` directory. It's recommended that you create a `sprites` folder
 to keep things organized. All sprites must be `.png` files
@@ -16,7 +18,8 @@ In this example the sprite name is `player.png` and is located under a directory
 args.outputs.sprites << [100, 100,    32,     64, "sprites/player.png"]
 ```
 
-## Rotation / Angle
+## Rotation / Angle#
+---
 
 Unlike `solids` and `borders`, sprites can be rotated. This is how you rotate a sprite 90 degress.
 
@@ -27,7 +30,8 @@ Note: All angles in DragonRuby Game Toolkit are represented in degrees (not radi
 args.outputs.sprites << [100, 100,    32,     64, "sprites/player.png",    90]
 ```
 
-## Alpha
+## Alpha#
+---
 
 Sprites can also have a transparency associated with them. The transparency value must come after
 the angle value and supports a number between 0 and 255.
@@ -39,7 +43,8 @@ This is how you would define a sprite with no rotation, and a 50% transparency.
 args.outputs.sprites << [100, 100,    32,     64, "sprites/player.png",     0,   128]
 ```
 
-## Color Saturations
+## Color Saturations#
+---
 
 A Sprite's color levels can be changed. The color saturations must come after `angle` and
 `alpha` values.
@@ -59,7 +64,8 @@ args.outputs.sprites << [100,                     # X
                          0]                       # BLUE_SATURATION
 ```
 
-## Sprite Sub Division / Tile
+## Sprite Sub Division / Tile#
+---
 
 You can render a portion of a sprite (a tile). The sub division of the sprite is denoted as a rectangle
 directly related to the original size of the png.
@@ -84,7 +90,8 @@ args.outputs.sprites << [                 100,    # X
                                            32]    # TILE_H
 ```
 
-## Flipping a Sprite Horizontally and Vertically
+## Flipping a Sprite Horizontally and Vertically#
+---
 
 A sprite can be flipped horizontally and vertically.
 
@@ -132,7 +139,8 @@ args.outputs.sprites << [                 100,    # X
                                          true]    # FLIP_VERTICALLY
 ```
 
-## Rotation Center
+## Rotation Center#
+---
 
 A sprites center of rotation can be altered.
 
@@ -160,7 +168,8 @@ args.outputs.sprites << [                 100,    # X
                                           1.0]    # ANCHOR_Y
 ```
 
-## Hash (Advanced)
+## Hash (Advanced)#
+---
 
 If you want a more readable invocation. You can use the following hash to create a sprite.
 Any parameters that are not specified will be given a default value. The keys of the hash can
@@ -189,7 +198,8 @@ args.outputs.sprites << {
 }
 ```
 
-## Duck Typing (Advanced)
+## Duck Typing (Advanced)#
+---
 
 You can also create a class with sprite properties and render it as a primitive.
 ALL properties must on the class. ADDITIONALLY, a method called `primitive_marker`
@@ -226,7 +236,8 @@ end
 
 args.outputs.sprites << PlayerSprite.new(10, 10, 32, 64)
 ```
-## Related Samples
+## Related Samples#
+---
 
 - 01_api_04_sprites
 - 01_api_99_tech_demo (includes recording)

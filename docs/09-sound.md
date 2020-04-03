@@ -1,4 +1,5 @@
-## MP3's to Wav converstion script:
+## MP3's to Wav converstion script:#
+---
 
 ```ruby
 `ls .`.each_line.to_a.map do |l|

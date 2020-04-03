@@ -1,5 +1,7 @@
-# Hello World Tutorial
+# Hello World Tutorial#
+---
 ## Part 1#
+---
 By [Ryan 'The Juggernaut' Gordon](https://en.wikipedia.org/wiki/Ryan_C._Gordon)
 
 Welcome!
@@ -28,6 +30,7 @@ complicated things really easily, and you can learn that stuff later. ** I'm
 going to show you one or two cool tricks, but that's all.
 
 ## Part 2#
+---
 Do you know what an if statement is? A for-loop? An array? That's all you'll
 need to start.
 
@@ -84,6 +87,7 @@ You're just setting up some arrays! DragonRuby clears out these arrays
 every frame, so you just need to add what you need _right now_ each time.
 
 ## Part 3#
+---
 Now let's spice this up a little.
 
 We're going to add some graphics. Each 2D image in DragonRuby is called a

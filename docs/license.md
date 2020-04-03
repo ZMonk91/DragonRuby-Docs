@@ -1,6 +1,8 @@
-#Licensing
+# Licensing#
+---
 
-Free Unrestricted License
+### Free Unrestricted License#
+---
 
 You are eligible for a free license if any of the following items pertain to you:
 

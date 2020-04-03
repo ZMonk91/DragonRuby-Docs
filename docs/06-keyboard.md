@@ -1,4 +1,5 @@
-# Keyboard
+# Keyboard#
+---
 
 Determining if `a` key is in the down state (pressed). This happens once each time the key is pressed:
 
@@ -32,7 +33,8 @@ if args.inputs.keyboard.key_up.a
 end
 ```
 
-# Truthy Keys
+# Truthy Keys#
+---
 
 You can access all triggered keys through `truthy_keys` on `keyboard`, `controller_one`, and `controller_two`.
 
@@ -53,7 +55,8 @@ def tick args
 end
 ```
 
-# List of keys:
+# List of keys:#
+---
 
 These are the character and associated properities that will
 be set to true.

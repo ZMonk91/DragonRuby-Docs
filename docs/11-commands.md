@@ -1,10 +1,14 @@
-# Commands
+# Commands#
+---
 Below is an ever growing list of commands available for DragonRuby GTK.
 
 
 ## Args#
 Class: (class Object)::(class GTK::Args)
 `args`
+
+---
+
 
 | Method | Description |
 | ------ | ----------- |
@@ -54,6 +58,8 @@ Class: (class Object)::(class GTK::Args)
 ### Inputs#
 `args.input`
 
+---
+
 | Method | Description |
 | ------ | ----------- |
 |`controller_one`|TBD|
@@ -75,6 +81,8 @@ Class: (class Object)::(class GTK::Args)
 
 #### Controller_One#
 `args.inputs.controller_one`
+
+---
 
 | Method | Description |
 | ------ | ----------- |
@@ -113,6 +121,9 @@ Class: (class Object)::(class GTK::Args)
 #### Controller_Two#
 `args.inputs.controller_two`
 
+---
+
+
 | Method | Description |
 | ------ | ----------- |
 |`clear`|TBD|
@@ -150,6 +161,9 @@ Class: (class Object)::(class GTK::Args)
 #### Keyboard#
 `args.inputs.keyboard`
 
+---
+
+
 | Method | Description |
 | ------ | ----------- |
 |`clear`|TBD|
@@ -176,6 +190,8 @@ Class: (class Object)::(class GTK::Args)
 
 #### Mouse#
 `args.inputs.mouse`
+
+---
 
 | Method | Description |
 | ------ | ----------- |
@@ -208,6 +224,8 @@ Class: (class Object)::(class GTK::Args)
 
 ### Grid#
 `args.grid`
+
+---
 
 |Method | Description |
 | --- | ---|
@@ -250,6 +268,8 @@ Class: (class Object)::(class GTK::Args)
 
 ### Outputs#
  `Args.Outputs`
+
+ ---
 
 | Method | Description |
 | ------ | ----------- |
@@ -325,6 +345,8 @@ Class: (class Object)::(class GTK::Args)
 #### Labels#
 ` Args.Outputs.Labels`
 
+---
+
 | Option *(bold denotes mandatory)*  | Description |
 | ------ | ----------- |
 |  **x**    | ** Location on X-Axis** |
@@ -344,6 +366,8 @@ Class: (class Object)::(class GTK::Args)
 Class: (class Object)::(class GTK::OpenEntity)
 
 `args.state`
+
+---
 
 | Method | Description |
 | ------ | ----------- |
@@ -383,6 +407,8 @@ Class: (class Object)::(class GTK::OpenEntity)
 ### New Entity#
 Class: (class Object)::(class GTK::OpenEntity)
 `args.state.new_entity`
+
+---
 
 | Method | Description |
 | ------ | ----------- |

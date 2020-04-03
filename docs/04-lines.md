@@ -1,9 +1,11 @@
-# Lines
+# Lines#
+---
 
 Lines are 1 pixel wide and can be diagonal.
 
 
-## Minimum Code
+## Minimum Code#
+---
 
 Creates a black line from the bottom left corner to the top right corner.
 
@@ -26,7 +28,8 @@ Creates a black horizontal line through the center of the scene.
 args.outputs.lines << [  0, 360,  1280, 360]
 ```
 
-## RGBA - Colors and Alpha
+## RGBA - Colors and Alpha#
+---
 
 The value for the color and alpha is an number between `0` and `255`. The
 alpha property is optional and will be set to `255` if not specified.
@@ -46,7 +49,8 @@ The opacity is excluded because it's 100% opaque (which has a value of 255).
 args.outputs.lines << [ 640,   0,  640,  720,   0,   255,    0]
 ```
 
-## Hash (Advanced)
+## Hash (Advanced)#
+---
 
 If you want a more readable invocation. You can use the following hash to create a line.
 Any parameters that are not specified will be given a default value. The keys of the hash can
@@ -65,7 +69,8 @@ args.outputs.lines << {
 }
 ```
 
-## Duck Typing (Advanced)
+## Duck Typing (Advanced)#
+---
 
 You can also create a class with line properties and render it as a primitive.
 ALL properties must on the class. ADDITIONALLY, a method called `primitive_marker`
@@ -99,7 +104,8 @@ end
 
 args.outputs.lines << VerticalLine.new(10, 10, 100)
 ```
-#### Related Samples
+#### Related Samples#
+---
 
 - 01_api_02_lines
 - 01_api_99_tech_demo (includes recording)

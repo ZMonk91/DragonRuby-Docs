@@ -1,5 +1,5 @@
-# General Stuff
-
+# General Stuff#
+---
 - You have 1280x720 pixels to work with. The bottom left corner is 0, 0
   with X increasing going right, and Y increasing going up.
 - The game is on a fixed 60 fps cycle (no delta time needed).
@@ -8,7 +8,8 @@
   contain a recorded replay/demo. So just double click `watch-recording` to
   see a full presentation of the sample.
 
-# Entry Point
+# Entry Point#
+---
 
 For all the examples in the other documentation files. It's assumed they
 are being placed into the follow code block:
@@ -20,7 +21,8 @@ def tick args
 end
 ```
 
-# New to Ruby
+# New to Ruby#
+---
 
 If you are a complete beginner and have never coded before:
 

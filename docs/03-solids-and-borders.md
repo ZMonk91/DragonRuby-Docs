@@ -1,8 +1,10 @@
-# Solids and Borders
+# Solids and Borders#
+---
 
 Solids and Borders are great to use as place holders for sprites.
 
-## Minimum Code
+## Minimum Code#
+---
 
 Creates a solid black rectangle located at 100, 100. 160 pixels
 wide and 90 pixels tall.
@@ -20,7 +22,8 @@ Creates an unfilled black-bordered rectangle located at 100, 100.
 args.outputs.borders << [100, 100,   160,     90]
 ```
 
-## RGBA - Colors and Alpha
+## RGBA - Colors and Alpha#
+---
 
 The value for the color and alpha is an number between `0` and `255`. The
 alpha property is optional and will be set to `255` if not specified.
@@ -48,7 +51,8 @@ The opacity is excluded because it's 100% opaque (which has a value of 255).
 args.outputs.solids << [   0,   0,  1280,    720, 128,   128,  128]
 ```
 
-## Hash (Advanced)
+## Hash (Advanced)#
+---
 
 If you want a more readable invocation. You can use the following hash to create a solid.
 Any parameters that are not specified will be given a default value. The keys of the hash can
@@ -79,7 +83,8 @@ args.outputs.borders << {
 }
 ```
 
-## Duck Typing (Advanced)
+## Duck Typing (Advanced)#
+---
 
 You can also create a class with solid/border properties and render it as a primitive.
 ALL properties must on the class. ADDITIONALLY, a method called `primitive_marker`
@@ -114,7 +119,8 @@ args.outputs.solids  << Square.new(10, 10, 32)
 args.outputs.borders << Square.new(10, 10, 32)
 ```
 
-#### Related Samples
+#### Related Samples#
+---
 
 - 01_api_03_rects
 - 01_api_99_tech_demo (includes recording)

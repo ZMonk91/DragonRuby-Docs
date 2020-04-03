@@ -1,4 +1,5 @@
-# Controllers
+# Controllers#
+---
 
 There are two controllers you have access to:
 
@@ -31,7 +32,8 @@ if args.inputs.controller_one.key_up.a
 end
 ```
 
-# Truthy Keys
+# Truthy Keys#
+---
 
 You can access all triggered keys through `thruthy_keys` on `keyboard`, `controller_one`, and `controller_two`.
 
@@ -52,7 +54,8 @@ def tick args
 end
 ```
 
-# List of keys:
+# List of keys:#
+---
 
 ```
 args.inputs.controller_one.key_held.up
