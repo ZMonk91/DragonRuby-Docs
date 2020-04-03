@@ -5,7 +5,7 @@ nav:
     - About: about.md
     - Licensing: license.md
     - Commands: 11-commands.md
-  - 'Getting Started':
+  - 'Getting Started': 
     - General Information: 01-high-level.md
     - Beginner: tutorials/beginner.md
     - Intermediate: tutorials/intermediate.md
@@ -13,26 +13,32 @@ nav:
   - 'Tutorials': 
     - Hello World: tutorials/hello-world.md
     - Publishing Your Game: tutorials/publishing.md
-  - 'Outputs':
+  - 'Outputs': 
     - Labels: 02-labels.md
     - Solids & Borders: 03-solids-and-borders.md
     - Lines: 04-lines.md
     - Sprites: 05-sprites.md
     - Sounds: 09-sound.md
-  - 'Inputs':
+  - 'Inputs': 
     - Keyboard: 06-keyboard.md
     - Mouse: 07-mouse.md
     - Controllers: 08-controllers.md
-  - 'Game States':
+  - 'Game States': 
     - Entities & Collisions: 10-entities-and-collisions.md
-  - 'Misc':
-
+  - 'Misc': 
     - Cheatsheet: 97-cheatsheet.md
     - FAQ: 98-faq.md
     - To Do: 99-todo.md
 
+theme:
+  name: 'material'
 
-theme: readthedocs
+  theme:
+  palette:
+    primary: 'black'
+    accent: 'indigo'
+  logo: 'img/console-logo.png'
+
 markdown_extensions:
     - toc:
         permalink: "#"
