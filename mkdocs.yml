@@ -12,6 +12,7 @@ nav:
     - Advanced: tutorials/advanced.md
   - 'Tutorials': 
     - Hello World: tutorials/hello-world.md
+    - Adding Buttons: tutorials/button-tutorial.md
     - Publishing Your Game: tutorials/publishing.md
   - 'Outputs': 
     - Labels: 02-labels.md
@@ -43,6 +44,7 @@ theme:
 markdown_extensions:
     - toc:
         permalink: "#"
+    - pyembed.markdown
     - admonition
     - codehilite
     - pymdownx.arithmatex
