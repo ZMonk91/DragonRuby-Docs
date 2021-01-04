@@ -1,4 +1,14 @@
-# DragonRuby-Docs
+# DragonRuby now has it's own official documents page, please use this instead
+[DragonRuby Docs](http://docs.dragonruby.org/)
+
+
+# Everything here is deprecated
+
+
+
+
+## DragonRuby-Docs
+
 An open source attempt at documenting [DragonRuby - GTK](http://DragonRuby.org)
 
 ## Contributing
