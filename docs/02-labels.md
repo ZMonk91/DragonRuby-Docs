@@ -100,7 +100,7 @@ args.outputs.labels << {
 ---
 
 You can also create a class with line properties and render it as a primitive.
-ALL properties must on the class. ADDITIONALLY, a method called
+ALL properties must be on the class. ADDITIONALLY, a method called
 `primitive_marker` must be defined on the class.
 
 Here is an example:
